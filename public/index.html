@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ZeroTrace Messenger</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header>ZeroTrace Messenger</header>
+
+        <div id="messages"></div>
+
+        <div class="input-area">
+            <input id="msg" type="text" placeholder="Введите сообщение...">
+            <button id="send">➤</button>
+        </div>
+    </div>
+
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
